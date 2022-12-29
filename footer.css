@@ -1,0 +1,155 @@
+footer{
+    height: 30vh;
+    background:linear-gradient(to left,brown,darkred);
+    color: wheat;
+    /* font-family: 'Secular One', sans-serif; */
+    position: absolute;
+    width: 100vw;
+    padding: 100px 0 30px;
+    border-top-left-radius: 130px;
+    border-top-right-radius: 130px;
+    font-size: 15px;
+    border: 3px solid black;
+}
+footer .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 85%;
+}
+footer .col{
+    flex-basis: 25%;
+    
+}
+.p1 {
+    color: wheat;
+}
+.p2 {
+    color: wheat;
+}
+.p3 {
+    color: wheat;
+}
+.p4 {
+    color: wheat;
+}
+
+footer .col:nth-child(2),.col:nth-child(3){
+    flex-basis: 15%;
+
+}
+footer .col h3{
+    width: fit-content;
+    margin: 10px;
+    position: relative;
+}
+footer .email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 0px 0;
+    color: wheat;
+}
+footer ul li{
+    list-style: none;
+    margin-bottom: 12px;
+
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer form{
+    padding: 6px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px;
+    margin-bottom:50px ;
+
+}
+footer form .fa-regular{
+    font-size: 18px;
+    margin-right: 10px;
+
+}
+footer form input{
+    
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 2px solid wheat;
+    outline: none;
+
+
+}
+footer form button .fa-solid{ 
+    
+    color:#ccc  ;
+    font-size: 16px;
+
+}
+footer .socila-ic .fa-brands {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+footer hr{
+    width: 90vw;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 0px auto;
+}
+
+.copyrigh{
+     
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+}
+.copyrigh h1{
+      text-align: center;
+      padding-left: 400px;
+}
+.copyrigh p{
+    text-align: center;
+    padding-left: 400px;
+    color: wheat;
+}
+footer .underline{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+ @keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
